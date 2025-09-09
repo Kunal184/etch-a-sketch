@@ -32,3 +32,16 @@ for (let i = 0; i < n * n; i++) {
 
 button.addEventListener("click", changeLayout);
 
+const clearButton = document.createElement("button");
+clearButton.textContent = "Clear";
+body.appendChild(clearButton);
+clearButton.addEventListener("click", clearLayout)
+
+
+function clearLayout(){
+    const squares = document.querySelectorAll(".square");
+    squares.forEach(square => {
+        square.style.backgroundColor = "white";
+    }
+    )
+}
