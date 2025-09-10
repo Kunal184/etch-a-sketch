@@ -14,7 +14,7 @@ Fully responsive grid using flexbox.
 
 Demo
 
-[Your GitHub Pages Link Here]
+kunal184.github.io/etch-a-sketch/
 
 How to Use
 
